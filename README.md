@@ -1,4 +1,7 @@
-# The-Git-Github-Bootcamp
+
+## The Git & Github Bootcamp
+
+
 
 ### The Course Curriculum!
 
@@ -22,6 +25,7 @@
 - Reflogs
 - Custom Aliases
 
+
 ### Git Core
 
 - Intro to Git
@@ -39,6 +43,7 @@
 
 ### Github/Collab Core
 
+
 - Github Intro
 - Fetching & Pulling
 - Github Odds & Ends
@@ -52,3 +57,33 @@
 - Git Behind The Scenes
 - Reflogs
 - Custom Aliases
+## Installation
+
+[Git for Windows](https://git-scm.com/download/win)
+
+[Git for Mac](https://git-scm.com/download/mac)
+
+[Binary installer for Mac](https://sourceforge.net/projects/git-osx-installer/)
+
+[VS Code Installation](https://code.visualstudio.com/download)
+
+[GitKraken](https://www.gitkraken.com/)
+
+#### Check your git version
+
+```
+  git --version
+```
+
+### Configuring Git
+
+##### set a name that is identifiable for credit when review version history
+
+```
+ git config --global user.name “[firstname lastname]”
+```
+##### set an email address that will be associated with each history marker
+
+```
+git config --global user.email “[valid-email]”
+```
