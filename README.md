@@ -125,3 +125,17 @@ Records the changes in the repository.
 git commit -m "your message"
 ```
 Creates a new commit with the staged changes and a descriptive message.
+## Exercise
+
+[Committing Basics Exercise](https://plum-poppy-0ea.notion.site/Committing-Basics-Exercise-3dc1ef1873ce45e68cedd2265710d7d8/) : Its a basic assignment on Committing Basics.
+
+
+
+## Authors
+
+- [@AhmadPiracha](https://www.github.com/AhmadPiracha)
+
+
+## Support
+
+For support, email ahmadpiracha3@gmail.com
