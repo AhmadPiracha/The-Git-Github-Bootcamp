@@ -125,6 +125,20 @@ Records the changes in the repository.
 git commit -m "your message"
 ```
 Creates a new commit with the staged changes and a descriptive message.
+
+```
+git commit -m 'some commit'
+git add forgotten_file
+git commit --amend
+```
+
+Suppose you just made a commit and then realized
+you forgot to include a file! Or, maybe you made a
+typo in the commit message that you want to
+correct.
+Rather than making a brand new separate commit,
+you can "redo" the previous commit using
+the --amend option
 ## Exercise
 
 [Committing Basics Exercise](https://plum-poppy-0ea.notion.site/Committing-Basics-Exercise-3dc1ef1873ce45e68cedd2265710d7d8/) : Its a basic assignment on Committing Basics.
@@ -139,3 +153,4 @@ Creates a new commit with the staged changes and a descriptive message.
 ## Support
 
 For support, email ahmadpiracha3@gmail.com
+
