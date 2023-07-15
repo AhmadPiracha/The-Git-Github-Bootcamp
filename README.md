@@ -151,7 +151,7 @@ git checkout -b <branch-name>
 ```
 use to switch between branches by creating new branch
 ```
-git branch -d <<branch-name>
+git branch -d <branch-name>
 ```
 Delete any branch
 
