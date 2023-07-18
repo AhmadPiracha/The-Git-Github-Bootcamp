@@ -90,6 +90,29 @@ git status gives information on the current status of a git repository and its c
 git init
 ```
 Use git init to create a new git repository.Before we can do anything git-related, we must initialize a repo first!
+
+```
+git init -b main
+```
+add the branch name
+```
+git add .
+```
+Use git add . to stage all changes at once
+```
+git commit
+```
+Records the changes in the repository.
+```
+git commit -m "your message"
+```
+Creates a new commit with the staged changes and a descriptive message.
+```
+git remote add origin <url>
+```
+```
+git push -u -f origin main
+```
 ```
 ls 
 ```
@@ -151,7 +174,7 @@ git checkout -b <branch-name>
 ```
 use to switch between branches by creating new branch
 ```
-git branch -d <branch-name>
+git branch -d <<branch-name>
 ```
 Delete any branch
 
