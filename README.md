@@ -194,6 +194,14 @@ git branch -v
 ```
 Use the -v flag with git branch to view more
 information about each branch.
+
+```
+git switch <branch-name>
+```
+
+```
+git merge <branch-name>
+```
 ## Exercise
 
 [Committing Basics Exercise](https://plum-poppy-0ea.notion.site/Committing-Basics-Exercise-3dc1ef1873ce45e68cedd2265710d7d8/) : Its a basic assignment on Committing Basics.
