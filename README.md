@@ -173,6 +173,29 @@ git switch -c <branch-name>
 git checkout -b <branch-name>
 ```
 use to switch between branches by creating new branch
+
+```
+git push -u origin <branch-name>
+```
+used to push the branch to the remote repository
+
+```
+git pull origin <branch-name>
+```
+used to pull the branch from the remote repository
+
+```
+git branch -a
+```
+used to list all the branches
+
+```
+git pull
+```
+used to pull the changes from the remote repository
+
+
+
 ```
 git branch -d <<branch-name>
 ```
@@ -202,6 +225,8 @@ git switch <branch-name>
 ```
 git merge <branch-name>
 ```
+
+
 ## Exercise
 
 [Committing Basics Exercise](https://plum-poppy-0ea.notion.site/Committing-Basics-Exercise-3dc1ef1873ce45e68cedd2265710d7d8/) : Its a basic assignment on Committing Basics.
