@@ -226,6 +226,38 @@ git switch <branch-name>
 git merge <branch-name>
 ```
 
+`git diff`:
+   - `git diff` is used to view the differences between two different states of your repository. It's a versatile command that can be used in several ways:
+     - `git diff` without any arguments shows the unstaged changes between your working directory and the last commit.
+     - `git diff <commit>` shows the changes between the working directory and a specific commit.
+     - `git diff <commit1> <commit2>` shows the differences between two specific commits.
+     - `git diff --staged` shows the changes that are staged but not yet committed.
+     - You can specify file paths to see the differences for specific files.
+
+   Example:
+   ```bash
+   git diff             # Show unstaged changes
+   git diff HEAD        # Show changes between working directory and last commit
+   git diff commit1 commit2  # Show changes between two specific commits
+   git diff --staged    # Show staged but uncommitted changes
+   git diff file.txt    # Show differences for a specific file
+   ```
+
+`git blame`:
+   - `git blame` is used to display the commit information (author, date, and commit message) associated with each line of a file. This can be useful for tracking the history of a file and identifying the commit responsible for a specific line of code.
+   
+   Example:
+   ```bash
+   git blame file.txt
+   ```
+
+   The output of `git blame` will display the file with each line annotated with commit information. For example:
+
+   ```
+   ^7e3dc82 (John Doe 2022-03-15 13:45:01 +0300 1) This is the first line
+   ^a1b2c3d (Jane Smith 2022-03-16 09:21:44 +0300 2) This is the second line
+   ^f4e5d6f (Alice Johnson 2022-03-17 17:58:22 +0300 3) This is the third line
+   ```
 
 ## Exercise
 
